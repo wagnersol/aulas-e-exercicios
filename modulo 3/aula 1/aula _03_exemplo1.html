@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">aula 2 Exemplo de get/set</h1> 
+        
+    <input type="submit"value = "Aperte aqui" onclick="clicar()">
+   <input type="checbox">
+
+   <input name="button"type="button"value="Botão"onclick="mudarfundo()">
+
+   <input name="seletorDeCores"type="color" onchange="mudarfundo()">
+<div class="listaDeDizeres">
+    <ul>
+       <li class="classe1"> A horta do codominio dandara é autimotizada</li>
+       <li class="classe2"> Hoje o dia está bonito</li>
+       <li class="classe3"> A luta é pra valer</li>
+       <li class="classe4">hoje tem assembleia!</li>   
+    </ul>
+</div>
+
+    <script>
+        function clicar(){
+            document.getElementById("titulo").textContent="Eu sei fazer um get/set"
+        }
+
+        function mudouDeCor(){
+
+            let corDoTitulo1 = 
+            document.getElementsByName("seletorDeCores1")[0].value
+            let corDoTitulo2=
+            document.getElementById("titulo").style.color = corDoTitulo
+            
+        }
+        function mudarfundo(){
+            document.getElementsByClassName("listaDeDizeres")[0].style.backgroundColor = "red"
+            
+            let mudarfundo2=
+            document.getElementsByName("fundo2")[0].value
+            let mudarfundo3=
+            document.getElementsByName("fundo 3")[0].value
+            document.querySelector("div.listaDeDizeres").style.color=cor
+
+
+        }
+    </script>
+</body>
+</html>

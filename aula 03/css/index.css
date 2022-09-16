@@ -1,0 +1,26 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    background-color: red;
+    color:white;
+}
+p{ background-color:purple;
+color:yellow;
+}
+.form{
+    background-color:blue;
+    color: white;
+}
+.espacamento{
+    padding: 15px;
+    margin:0px;
+
+
+}
+
+#outroconteúdo{
+    background-color:green;
+}

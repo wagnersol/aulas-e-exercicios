@@ -1,0 +1,21 @@
+<!DOCUTYPE html>
+<head lang ="pt-br">
+    
+
+</head>
+<body>
+    <h1 id="tituloDaPagina">Lista de jogadores do Flamengo</h1>
+    <ul id="listaOrdenada">
+    </ul>
+
+    <script>
+        let nomeDoJogador = ''
+        let numeroDaCamisa = 0
+        for(let i=0; i<5; i++){
+            nomeDoJogador = prompt("Escreva o nome de um jogador:")
+            numeroDaCamaisa = prompt("Escreva o numero da camisa de "+ nomeDoJogador +":")
+            document.getElementById("listaOrdenada").innerHTML += "<li>" + numeroDaCamisa + " - "+ nomeDoJogador + "</li>"
+        }
+         </script>
+    </body>
+</html>

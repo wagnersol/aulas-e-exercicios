@@ -1,0 +1,39 @@
+<!Doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Exercicio da aula 3 </title>
+    <link href="./css/index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div>
+        <label for="valor1">1º valor</label>
+        <input type="number" id="valor1" />
+        <br>
+
+        <label for="valor2">2º valor</label>
+        <input type="number" id="valor2" />
+        <br>
+
+        <label for="operacao">operacao</label>
+        <select id="operacao">
+
+            <option value="">vazio</option>
+            <option value="vezes">*</option>
+            <option value="mais">+</option>
+            <option value="menos">-</option>
+            <option value="dividir">/</option>
+        </select>
+        <br>
+        <button type="button" onclick="clicarcalcular()">calcular</button>
+    </div>
+    <div>
+        <label for="resultado">resultado:</label>
+        <span id="resultado"></span>
+        
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

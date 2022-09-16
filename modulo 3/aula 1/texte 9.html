@@ -1,0 +1,38 @@
+<!docutype html>
+<html lang="pt-br">
+    <head>
+        <title>MTST Cursos-javascript</title>
+        <meta charset="utf-8"/>
+
+        <script>
+
+            var notas=98;
+            var res;
+            //Aprovado com louvor    >95
+            //Aprovado               >=60
+            //Recuperaçao            >=40 && <=60
+            //Reprovado              <=40
+            //Reprovado com  louvor  <20
+
+            if(nota>95){
+            res="Aprovado com louvor";
+        }else if(nota >= 60){
+                res="Aprovado";
+            }else if(nota>=40){
+                res ="Recuperaçao";
+            }else if(nota>=0){
+                res="Reprovado";
+            }else{
+                res="Reprovado com louvor";
+            }
+
+            document.write("res");
+            
+        </script>
+
+    </head>
+    <body>
+
+
+     </body>
+</html>

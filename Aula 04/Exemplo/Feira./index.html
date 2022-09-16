@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title>tabelaFruta</Table>
+    </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>
+        HortFrutSol
+    </h1>
+    <hr>
+    <div class="form">
+        <div class="form-group">
+            <label for="Fruta">Fruta :</label>
+            <input type="text" id="Fruta">
+        </div>
+        <div class="form-group">
+            <label for="Preco">Preço :</label>
+            <input type="number" id="Preco">
+        </div>
+        <hr id ="espaco">
+        <div class="form-group">
+            <button type="button" onclick="clickAdicionaFruta()">Adicionar</button>
+        </div>
+        </div>
+        <hr>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fruta</th>
+                    <th>preco</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaFruta"></tbody>
+            </tfoot>
+            <tr>
+                <td>
+                    Total
+                </td>
+                 <td id="tdTotal">-</td>
+            </tr>
+            </tfoot>
+        </table>
+
+        <script src="./script.js"></script>
+</body>
+
+</html>

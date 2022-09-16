@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+<head>
+    <title>Exercício 5</title>
+    </head>
+
+<body>
+    <p>Nome <span id = "spanNome"></span></p>
+    <p>pai <span id = "spanPai"></span></p>
+    <p>mãe <span id = "spanMãe"></span></p>
+    <p>Olá <span id = "spanMensagem"></span></p>
+
+    <script type ="text/javascript">
+        const constanteNome = prompt("qual o seu nome?")
+        const constantePai = prompt("qual o nome do seu pai?")
+        const constanteMãe = prompt("qual o nome da sua mãe?")
+
+        document.getElementById("spanNome").textContent =constanteNome
+        document.getElementById("spanPai").textContent =constantePai
+        document.getElementById("spanMãe").textContent =constanteMãe
+
+        document.getElementById("spanNome").textContent = constanteNome
+        document.getlementById("spanPai").textContent = constantePai
+        document.getElementById("spanMãe").textContent = constanteMãe
+    </script>
+
+    </body>
+
+    </html>
